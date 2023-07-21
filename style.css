@@ -17,9 +17,7 @@ h1,h2,h3{
     font-family: var(--font-titulos);
     text-align: center;
 }
-.conhe{
-    display: flex;
-}
+
 a{
     list-style: none;
     color: black;
@@ -29,4 +27,7 @@ p{
     font-family: var(--font-paragra);
     text-align: center;
 }
-
+.front{
+    width: 100px;
+    display: flex;
+}
