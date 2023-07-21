@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+/*Criando variaveis para os estilos*/
+:root{
+    --cor-fundo1:white;
+    --font-titulos:'Roboto', sans-serif;
+    --font-paragra:'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    font-family: var(--font-titulos);
+    text-align: center;
+}
+.conhe{
+    display: flex;
+}
+a{
+    list-style: none;
+    color: black;
+    font-family: var(--font-paragra);
+}
+p{
+    font-family: var(--font-paragra);
+    text-align: center;
+}
+
