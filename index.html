@@ -6,57 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinicios</title>
     <link rel="stylesheet" href="style.css">
+    <script src="frontend.js" defer></script>
 </head>
 <body>
     <header>
          <h1>VGS</h1>
+         <div class="name">
+            <h2>Vinicios Gabriel</h2>
+            <p>Front-end developer</p>
+        </div>
+       
+       <div class="links">
+           <a href="#"> GitHub</a>
+           <a href="#">Linkedin</a>
+       </div>
     </header>
-    <div class="name">
-        <h2>Vinicios Gabriel</h2>
-        <p>Front-end developer</p>
-    </div>
    
-   <div class="links">
-       <a href="#"> GitHub</a>
-       <a href="#">Linkedin</a>
-   </div>
     <main>
        <div class="sobre">
             <h3>sobre</h3>
             <p>Me chamo Vinicios Gabriel Salatiel, tenho 24 anos e estou cursando o 3° semestre em análise e desenvolvimento de sistema <br> pela instuição de ensino UNINOVE</p>
        </div>
        <h3>Habilidades</h3>
-            <div class="front">
-                <p>HTML5</p>
-                <picture>
-                    <source media="(max-width:800px)" srcset="img\html_pq.png">
-                    <img src="img/html.png" alt="HTML5">
-                </picture>
-            </div>
-            <div class="front">
-                <p>CSS3</p>
-                <picture>
-                    <source media="(max-width:800px)" srcset="img\css_pq.png">
-                    <img src="img/css.png" alt="CSS3">
-                </picture>
-            </div>
-            <div class="front">
-                <p>JavaScript</p>
-                <picture>
-                    <source media="(max-width:800px)" srcset="img\js_pq.png">
-                    <img src="img/js.png" alt="JavaScript">
-                </picture>
-            </div>
-            <div id="WordPress">
-                <p>WordPress</p>
-                <picture>
-                    <source media="(max-width:800px)" srcset="img\js_pq.png">
-                    <img src="img/js.png" alt="JavaScript">
-                </picture>
-            </div>
-       <div class="projetos">
-        
-       </div>
+        <div class="front">   
+            <picture>
+                <source media="(max-width:1200px)" srcset="img\html_pq.png" id="image" onclick="toggleText()">
+                <img src="img/html.png" alt="HTML5">
+            </picture>
+            <p id="text" style="display: none;">This is a text.</p>
+                
+            <picture>
+                <source media="(max-width:1200px)" srcset="img\css_pq.png">
+                <img src="img/css.png" alt="CSS3">
+            </picture>
+
+            <picture>
+                <source media="(max-width:1200px)" srcset="img\js_pq.png">
+                <img src="img/js.png" alt="JavaScript">
+            </picture>
+                
+            <picture>
+                <source media="(max-width:1300px)" srcset="img\wordpress_pq.png">
+                <img src="img\wordpress.png" alt="WordPress">
+            </picture>
+        </div>
     </main>
 </body>
 </html>

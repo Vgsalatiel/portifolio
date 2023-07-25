@@ -8,14 +8,17 @@
     --font-titulos:'Roboto', sans-serif;
     --font-paragra:'Titillium Web', sans-serif;
 }
-
+body{
+    text-align: center;
+}
 *{
     margin: 0;
     padding: 0;
 }
+
 h1,h2,h3{
     font-family: var(--font-titulos);
-    text-align: center;
+    
 }
 
 a{
@@ -25,9 +28,13 @@ a{
 }
 p{
     font-family: var(--font-paragra);
-    text-align: center;
+    margin: 20px 20px;
 }
 .front{
     width: 100px;
     display: flex;
+    margin: 5vh 15vw;
+}
+picture{
+    margin-left: 2vw;
 }
