@@ -1,11 +1,19 @@
 //criei uma array para quando clicar uma lista aparecer para cada imagem
 const listas =[
-    `HTML5:<br>
+    `<h3>HTML5</h3><br>
+    <details>
+        <summary>Estrutura de página</summary>
+        <p>
+            Conhecimento em criar a estrutura básica de uma página HTML usando elementos como
+            "html", head, body, header, nav, main, footer, etc.
+        </p>
+    </details>
     <ul>
-        <li><b>Estrutura de página</b></li>
+        <li><b></b></li>
         <li>Tabelas</li>
         <li>Item 3</li>
     </ul>
+    
     `,
     `CSS3:<br>
     <ul>
