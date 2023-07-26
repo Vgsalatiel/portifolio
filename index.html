@@ -17,7 +17,7 @@
         </div>
        
        <div class="links">
-           <a href="#"> GitHub</a>
+           <a href="https://github.com/Vgsalatiel" target="_blank"> GitHub</a>
            <a href="#">Linkedin</a>
        </div>
     </header>
@@ -29,27 +29,27 @@
        </div>
        <h3>Habilidades</h3>
         <div class="front">   
-            <picture>
-                <source media="(max-width:1200px)" srcset="img\html_pq.png" id="image" onclick="toggleText()">
+            <picture onclick="front(0)">
+                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
                 <img src="img/html.png" alt="HTML5">
             </picture>
-            <p id="text" style="display: none;">This is a text.</p>
-                
-            <picture>
+             
+            <picture onclick="front(1)">
                 <source media="(max-width:1200px)" srcset="img\css_pq.png">
                 <img src="img/css.png" alt="CSS3">
             </picture>
 
-            <picture>
+            <picture onclick="front(2)">
                 <source media="(max-width:1200px)" srcset="img\js_pq.png">
                 <img src="img/js.png" alt="JavaScript">
             </picture>
                 
-            <picture>
+            <picture onclick="front(3)">
                 <source media="(max-width:1300px)" srcset="img\wordpress_pq.png">
                 <img src="img\wordpress.png" alt="WordPress">
             </picture>
         </div>
+        <div id="texto"></div>
     </main>
 </body>
 </html>

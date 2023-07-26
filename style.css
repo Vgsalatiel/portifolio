@@ -37,4 +37,10 @@ p{
 }
 picture{
     margin-left: 2vw;
+    cursor: pointer;
 }
+.texto{
+    opacity: 0; /* Start with 0 opacity (invisible) */
+    transition: opacity 3s ease;
+}
+

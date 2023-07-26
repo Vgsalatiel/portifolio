@@ -1,4 +1,41 @@
-function toggleText() {
-    var text = document.getElementById('text');
-    text.style.display = text.style.display === 'none' ? 'block' : 'none';
+//criei uma array para quando clicar uma lista aparecer para cada imagem
+const listas =[
+    `HTML5:<br>
+    <ul>
+        <li><b>Estrutura de página</b></li>
+        <li>Tabelas</li>
+        <li>Item 3</li>
+    </ul>
+    `,
+    `CSS3:<br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    `,
+    `JavaScript:<br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    `,
+    `WordPress:<br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    `
+]
+
+function front(index){//index se refere as arrays criadas ligadas as indices que coloquei na fuction no html
+    
+    let text = document.getElementById("texto");
+
+    if (text) {
+        // Update the content of the container with the corresponding message from the array
+        text.innerHTML = listas[index];
+      }
 }
