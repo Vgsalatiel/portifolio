@@ -30,21 +30,23 @@ p{
     margin: 20px 20px;
 }
 .front{
-    width: 100px;
-    display: flex;
-    margin: 5vh 15vw;
+    margin: 10vw 10vh;
 }
 picture{
     margin-left: 5vw;
     cursor: pointer;
+    display: contents;
+}
+img{
+    padding: 3vh 2vw;
 }
 .texto{
     opacity: 0; /* Start with 0 opacity (invisible) */
     transition: opacity 3s ease;
 }
 
-#html{
-    background-color: aqua;
-    width: 30vw;
-    margin-left: 35vw;
+#back{
+    margin: 10vw 10vh;
 }
+
+

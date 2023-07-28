@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinicios</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="frontend.js" defer></script>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/adress.css">
+    <script src="js/frontend.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,8 +29,9 @@
             <p>Me chamo Vinicios Gabriel Salatiel, tenho 24 anos e estou cursando o 3° semestre em análise e desenvolvimento de sistema <br> pela instuição de ensino UNINOVE</p>
        </div>
        <h3>Habilidades</h3><br>
-       <h4>Front-end</h4>
-        <div class="front">   
+       
+        <div class="front"> 
+            <h4>Front-end</h4>
             <picture onclick="front(0)">
                 <source media="(max-width:1200px)" srcset="img\html_pq.png" >
                 <img src="img/html.png" alt="HTML5">
@@ -46,11 +48,27 @@
             </picture>
                 
             <picture onclick="front(3)">
-                <source media="(max-width:1500px)" srcset="img\wordpress_pq.png">
+                <source media="(max-width:1200px)" srcset="img\wordpress_pq.png">
                 <img src="img\wordpress.png" alt="WordPress">
             </picture>
+            <div id="texto"></div>
         </div>
-        <div id="texto"></div>
+       
+        
+       
+        <div id="back">
+            <h4>Back-end</h4>
+            <picture onclick="front(0)">
+                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
+                <img src="img/html.png" alt="HTML5">
+            </picture>
+
+            <picture onclick="front(1)">
+                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
+                <img src="img/html.png" alt="HTML5">
+            </picture>
+        </div>
+        <div id="back"></div>
     </main>
 </body>
 </html>

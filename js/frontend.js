@@ -77,7 +77,7 @@ const listas =[
         </div>
     `,
     `<h3>JavaScript</h3><br>
-        <div id="JS">
+        <div id="js">
             <details>
                 <summary>Manipulação do DOM</summary>
                 <p>
@@ -109,7 +109,7 @@ const listas =[
         </div>
     `,
     `<h3>WordPress</h3><br>
-    <div id="WP">
+    <div id="wp">
         <details>
             <summary>Customização do Tema</summary>
             <p>
