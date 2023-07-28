@@ -17,8 +17,7 @@ body{
 }
 
 h1,h2,h3{
-    font-family: var(--font-titulos);
-    
+    font-family: var(--font-titulos);   
 }
 
 a{
@@ -36,7 +35,7 @@ p{
     margin: 5vh 15vw;
 }
 picture{
-    margin-left: 2vw;
+    margin-left: 5vw;
     cursor: pointer;
 }
 .texto{
@@ -44,3 +43,8 @@ picture{
     transition: opacity 3s ease;
 }
 
+#html{
+    background-color: aqua;
+    width: 30vw;
+    margin-left: 35vw;
+}
