@@ -30,7 +30,7 @@ const listas =[
                 </p>
             </details>
             <details>
-                <summary>Litas</summary>
+                <summary>Lista</summary>
                 <p>
                 Criação de listas ordenadas ol e não ordenadas ul utilizando os elementos li.
                 </p>

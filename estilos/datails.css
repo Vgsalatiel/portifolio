@@ -8,26 +8,31 @@
     --font-titulos:'Roboto', sans-serif;
     --font-paragra:'Titillium Web', sans-serif;
 }
-address{
+details{
     font-family: var(--font-paragra);
+    transition: 0.3s;
 }
 #html{
-    background-color: #e64908;
     width: 30vw;
     margin-left: 25vw;
 }
 #css{
-    background-color: aqua;
+    background-color: #5294cb;
     width: 30vw;
     margin-left: 25vw;
 }
 #js{
-    background-color: aqua;
+    background-color: #f3db1c;
     width: 30vw;
     margin-left: 25vw;
 }
 #wp{
-    background-color: aqua;
+    background-color: #75b2d4;
     width: 30vw;
     margin-left: 25vw;
+}
+#html:hover
+{
+    transition: 1.4s;
+    background-color: #ec642b;
 }
