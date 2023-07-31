@@ -1,6 +1,6 @@
 //criei uma array para quando clicar uma lista aparecer para cada imagem
 const listas =[
-    `<h3>HTML5</h3><br>
+    `<h3>HTML5</h3>
         <div id="html">
             <details>
                 <summary>Estrutura de página</summary>
@@ -140,6 +140,7 @@ const listas =[
         </details>
     </div>
     `
+    
 ]
 
 function front(index){//index se refere as arrays criadas ligadas as indices que coloquei na fuction no html

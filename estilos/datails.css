@@ -10,9 +10,10 @@
 }
 details{
     font-family: var(--font-paragra);
-    transition: 0.3s;
+    cursor: pointer;
 }
 #html{
+    background-color: #ec642b;
     width: 30vw;
     margin-left: 25vw;
 }
@@ -24,15 +25,15 @@ details{
 #js{
     background-color: #f3db1c;
     width: 30vw;
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
 #wp{
     background-color: #75b2d4;
     width: 30vw;
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
-#html:hover
-{
-    transition: 1.4s;
+#java{
     background-color: #ec642b;
+    width: 30vw;
+    margin-left: 35vw;
 }

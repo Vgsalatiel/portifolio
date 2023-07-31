@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinicios</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/datails.css">
+    <link rel="stylesheet" href="estilos/datails.css ">
     <script src="js/frontend.js" defer></script>
+    <script src="js/back.js" defer></script>
 </head>
 <body>
     <header>
          <h1>VGS</h1>
          <div class="name">
             <h2>Vinicios Gabriel</h2>
-            <p>Front-end developer</p>
+            <p>Front-end developer (junior)</p>
         </div>
        
        <div class="links">
@@ -22,53 +23,50 @@
            <a href="#">Linkedin</a>
        </div>
     </header>
-   
     <main>
        <div class="sobre">
             <h3>sobre</h3>
-            <p>Me chamo Vinicios Gabriel Salatiel, tenho 24 anos e estou cursando o 3° semestre em análise e desenvolvimento de sistema <br> pela instuição de ensino UNINOVE</p>
+            <p>Me chamo Vinicios Gabriel Salatiel, tenho 24 anos e estou cursando análise e desenvolvimento de sistema pela instuição de ensino UNINOVE</p>
        </div>
-       <h3>Habilidades</h3><br>
-       
-        <div class="front"> 
-            <h4>Front-end</h4>
-            <picture onclick="front(0)">
-                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
-                <img src="img/html.png" alt="HTML5">
-            </picture>
-             
-            <picture onclick="front(1)">
-                <source media="(max-width:1200px)" srcset="img\css_pq.png">
-                <img src="img/css.png" alt="CSS3">
-            </picture>
-
-            <picture onclick="front(2)">
-                <source media="(max-width:1200px)" srcset="img\js_pq.png">
-                <img src="img/js.png" alt="JavaScript">
-            </picture>
-                
-            <picture onclick="front(3)">
-                <source media="(max-width:1200px)" srcset="img\wordpress_pq.png">
-                <img src="img\wordpress.png" alt="WordPress">
-            </picture>
-            <div id="texto"></div>
+       <main>
+        <div id="habilidades">
+            <div class="front">
+                <h4>Front-end</h4>
+                <picture onclick="front(0)">
+                    <source media="(max-width:1200px)" srcset="img\html_pq.png" >
+                    <img src="img/html.png" alt="HTML5">
+                </picture>
+            
+                <picture onclick="front(1)">
+                    <source media="(max-width:1200px)" srcset="img\css_pq.png">
+                    <img src="img/css.png" alt="CSS3">
+                </picture>
+                <picture onclick="front(2)">
+                    <source media="(max-width:1200px)" srcset="img\js_pq.png">
+                    <img src="img/js.png" alt="JavaScript">
+                </picture>
+            
+                <picture onclick="front(3)">
+                    <source media="(max-width:1200px)" srcset="img\wordpress_pq.png">
+                    <img src="img\wordpress.png" alt="WordPress">
+                </picture>
+                <div id="texto"></div>
+            </div>
+            <div id="back">
+                <h4>Back-end</h4>
+                <picture onclick="backend(0)">
+                    <source media="(max-width:1200px)" srcset="img\java_pq.png" >
+                    <img src="img/java.png" alt="HTML5">
+                </picture>
+                <picture onclick="backend(1)">
+                    <source media="(max-width:1200px)" srcset="img\mySql_pq.png" >
+                    <img src="img/mySql.png" alt="HTML5">
+                </picture>
+            </div>
+            <div id="textob"></div>
         </div>
-       
+       </main>
         
-       
-        <div id="back">
-            <h4>Back-end</h4>
-            <picture onclick="front(0)">
-                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
-                <img src="img/html.png" alt="HTML5">
-            </picture>
-
-            <picture onclick="front(1)">
-                <source media="(max-width:1200px)" srcset="img\html_pq.png" >
-                <img src="img/html.png" alt="HTML5">
-            </picture>
-        </div>
-        <div id="back"></div>
     </main>
 </body>
 </html>

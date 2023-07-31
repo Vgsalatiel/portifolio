@@ -15,8 +15,11 @@ body{
     margin: 0;
     padding: 0;
 }
+main{
+    margin-bottom: 10vh;
+}
 
-h1,h2,h3{
+h1,h2,h3,h4{
     font-family: var(--font-titulos);   
 }
 
@@ -27,26 +30,17 @@ a{
 }
 p{
     font-family: var(--font-paragra);
-    margin: 20px 20px;
+    
 }
 .front{
     margin: 10vw 10vh;
 }
 picture{
     margin-left: 5vw;
-    cursor: pointer;
-    display: contents;
+    cursor: pointer;   
 }
 img{
     padding: 3vh 2vw;
-}
-.texto{
-    opacity: 0; /* Start with 0 opacity (invisible) */
-    transition: opacity 3s ease;
-}
-
-#back{
-    margin: 10vw 10vh;
 }
 
 
