@@ -9,31 +9,10 @@
     --font-paragra:'Titillium Web', sans-serif;
 }
 details{
+    display: flex;
     font-family: var(--font-paragra);
     cursor: pointer;
 }
-#html{
-    background-color: #ec642b;
-    width: 30vw;
-    margin-left: 25vw;
-}
-#css{
-    background-color: #5294cb;
-    width: 30vw;
-    margin-left: 25vw;
-}
-#js{
-    background-color: #f3db1c;
-    width: 30vw;
-    margin-left: 30vw;
-}
-#wp{
-    background-color: #75b2d4;
-    width: 30vw;
-    margin-left: 30vw;
-}
-#java{
-    background-color: #ec642b;
-    width: 30vw;
-    margin-left: 35vw;
+a{
+    margin-top: 2px;
 }
